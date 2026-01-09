@@ -1,11 +1,10 @@
-# Azure Day 05: [Task Name]
+# Azure Day 05: Create Virtual Network (IPv4)
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Design the networking foundation for Azure resources.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Virtual Network
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that a VNet is the equivalent of an AWS VPC. Understood how to define the Address Space (e.g., 10.0.0.0/16).

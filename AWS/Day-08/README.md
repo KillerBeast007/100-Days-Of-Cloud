@@ -1,11 +1,10 @@
-# AWS Day 08: [Task Name]
+# AWS Day 08: Enable Stop Protection
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Prevent unauthorised or accidental shutdowns of critical servers.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Realised that "Stop Protection" acts as a safety lock. It requires an extra step to disable protection before the instance can be shut down.

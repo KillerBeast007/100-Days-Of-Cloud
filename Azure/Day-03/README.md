@@ -1,11 +1,10 @@
-# Azure Day 03: [Task Name]
+# Azure Day 03: Create Azure VM (CLI)
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Replicate deployment VM via Command Line.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure CLI
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Realised that az vm create is much faster for repetitive tasks.

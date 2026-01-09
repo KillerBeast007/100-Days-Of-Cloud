@@ -1,11 +1,10 @@
-# AWS Day 05: [Task Name]
+# AWS Day 05: Create GP3 Volume
 
 ## Objective
 [Briefly explain what you were trying to achieve]
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EBS (Elastic Block Store)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that EBS volumes are Availability Zone (AZ) specific. You must create the volume in the same AZ as the instance you want to attach it to.

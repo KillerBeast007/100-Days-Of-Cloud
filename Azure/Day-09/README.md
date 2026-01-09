@@ -1,11 +1,10 @@
-# Azure Day 09: [Task Name]
+# Azure Day 09: Attach Network Interface Card (NIC)
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Connect a VM to a specific VNet and Subnet.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Networking (NIC)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that the NIC is the "bridge" between the VM and the network. A single VM can have multiple NICs for complex networking setups.

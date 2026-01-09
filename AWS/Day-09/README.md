@@ -1,11 +1,10 @@
-# AWS Day 09: [Task Name]
+# AWS Day 09: Enable Termination Protection
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Safeguard the instance against permanent deletion.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that Termination and Stop are different—Termination deletes the instance entirely. This is essential for production environments to avoid data loss.

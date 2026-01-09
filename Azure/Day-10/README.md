@@ -1,11 +1,10 @@
-# Azure Day 10: [Task Name]
+# Azure Day 10: Attach Public IP to VM
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Map the Public IP resource to the VM's Network Interface.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Virtual Machines & Networking
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that the Public IP isn't attached to the VM directly, but to the NIC associated with that VM.

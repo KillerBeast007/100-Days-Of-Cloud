@@ -1,11 +1,10 @@
-# AWS Day 02: [Task Name]
+# AWS Day 02: Create Security Group
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Create a virtual firewall to secure the instance.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: VPC (Security Groups)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Understood the difference between inbound and outbound rules. By default, all outbound traffic is allowed, but all inbound traffic is blocked until a rule (like SSH/Port 22) is added.

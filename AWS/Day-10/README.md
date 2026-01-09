@@ -1,11 +1,10 @@
-# AWS Day 10: [Task Name]
+# AWS Day 10: Attach Elastic IP to EC2 Instance
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Map a static public IP to a specific running virtual server.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2 & Networking
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Verified that once attached, the instance's previous public IP is released, and it is now reachable via the static Elastic IP address.

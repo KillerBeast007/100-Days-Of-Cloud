@@ -1,11 +1,10 @@
-# AWS Day 03: [Task Name]
+# AWS Day 03: Create Subnet
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Create a logical partition within a VPC to launch resources.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: VPC (Subnets)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned how CIDR blocks work. Encountered a "CIDR overlap" error and solved it by selecting a unique IP range (e.g., 172.31.128.0/24) that wasn't already in use.

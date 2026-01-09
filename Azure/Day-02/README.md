@@ -1,11 +1,10 @@
-# Azure Day 02: [Task Name]
+# Azure Day 02: Create Azure VM (GUI)
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Deploy a VM using the Portal
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Compute
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that Azure creates several resources at once (NIC, Disk, Public IP) during a VM launch.

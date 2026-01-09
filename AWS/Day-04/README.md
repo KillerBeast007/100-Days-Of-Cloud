@@ -1,11 +1,10 @@
-# AWS Day 04: [Task Name]
+# AWS Day 04: Allocate Elastic IP
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Obtain a persistent public IP address.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2 (Elastic IP)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that standard public IPs change when an instance is stopped, but an Elastic IP stays the same. Also noted that AWS charges for Elastic IPs that are allocated but not attached to a running instance.

@@ -1,11 +1,10 @@
-# Azure Day 07: [Task Name]
+# Azure Day 07: Create Public IP Address
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Create a standalone IP resource for external access.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Networking (Public IP)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Noted that Public IPs in Azure can be "Static" or "Dynamic." Static is preferred for web servers.

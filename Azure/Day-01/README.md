@@ -1,11 +1,10 @@
-# Azure Day 01: [Task Name]
+# Azure Day 01: Create SSH Key Pair
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Generate credentials for secure Linux VM login.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Virtual Machines
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Compared this to AWS; Azure allows you to generate and store the key in the Azure Key Vault or download it locally during VM creation.

@@ -1,11 +1,10 @@
-# AWS Day 06: [Task Name]
+# AWS Day 06: Launch EC2 Instance
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Deploy a virtual server using a specific AMI and instance type.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Understood the boot process and how the Instance Type (like t2.micro) determines the CPU and RAM available to the OS.

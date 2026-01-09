@@ -1,11 +1,10 @@
-# Azure Day 06: [Task Name]
+# Azure Day 06: Create Subnet in VNet
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Segment the VNet into smaller logical sections.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Virtual Network (Subnets)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that Azure reserves the first three and last one IP address in every subnet for its own use.

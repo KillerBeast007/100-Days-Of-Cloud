@@ -1,11 +1,10 @@
-# AWS Day 01: [Task Name]
+# AWS Day 01: Create Key Pair
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Establish a secure method for remote authentication to Linux instances.
 
 ## Services Used
-- **AWS**: [Service Name]
+- **AWS**: EC2 (Key Pairs)
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Learned that AWS doesn't store the private key (.pem file); if you lose it, you lose access to the instance. Also learned about the importance of setting correct file permissions (chmod 400).

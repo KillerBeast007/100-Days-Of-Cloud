@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Define the two cloud tracks
+clouds=("AWS" "Azure")
+
+# Loop through each cloud provider
+for cloud in "${clouds[@]}"; do
+    mkdir -p "$cloud"
+    
+    # Create folders and READMEs for the first 10 days
+    for day in {01..10}; do
+        dir_name="$cloud/Day-$day"
+        mkdir -p "$dir_name"
+        
+        # Create the template README
+        cat <<EOF > "$dir_name/README.md"
+# $cloud Day $day: [Task Name]
+
+## Objective
+[Briefly explain what you were trying to achieve]
+
+## Services Used
+- **$cloud**: [Service Name]
+
+## Key Learnings
+- [What did you learn about how this service works?]
+- [Mention any errors and how you solved them]
+EOF
+    done
+done
+
+echo "Folder structure and templates created successfully!"

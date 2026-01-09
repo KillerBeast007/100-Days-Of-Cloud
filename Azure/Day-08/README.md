@@ -1,11 +1,10 @@
-# Azure Day 08: [Task Name]
+# Azure Day 08: Attach Managed Disk
 
 ## Objective
-[Briefly explain what you were trying to achieve]
+Add an extra storage drive to an existing VM.
 
 ## Services Used
-- **Azure**: [Service Name]
+- **Azure**: Azure Managed Disks
 
 ## Key Learnings
-- [What did you learn about how this service works?]
-- [Mention any errors and how you solved them]
+- Understood that a Managed Disk handles the underlying storage hardware automatically. It must be initialised within the Linux OS after attachment.

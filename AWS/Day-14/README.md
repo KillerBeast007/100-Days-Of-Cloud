@@ -1,4 +1,4 @@
-# AWS Day 13: Terminate EC2 Instance
+# AWS Day 14: Terminate EC2 Instance
 
 ## Objective
 Permanently delete an EC2 instance to stop incurring costs and clean up the environment.
